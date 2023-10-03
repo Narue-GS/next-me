@@ -1,21 +1,16 @@
 import Image from 'next/image'
+import Header from './components/header'
+import Banner from './components/banner'
+import PostContainer from './components/postContainer'
 
 export default function Home() {
   return (
     <>
-      <header className='bg-gradient-to-b text-center from-[rgb(47, 5, 75)] to-white p-4'>
-        <h1>Next Me</h1>
-      </header>
+      <Header/>
 
-      <section className='text-center'>
-        <h1 className='text-5xl tracking-widest'>Welcome!</h1>
-        <span className='tracking-widest'>enjoy the future</span>
-      </section>
+      <Banner/> 
 
-      <section className='flex justify-center my-10'>
-        <input className='border outline-none rounded-full w-[50%] p-2' type="text" placeholder='new post!'/>
-        <button>Add</button>
-      </section>
+      <PostContainer/>
 
       <section>
         <div>

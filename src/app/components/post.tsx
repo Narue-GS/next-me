@@ -5,7 +5,7 @@ interface PostProps {
 
 export default function Post(props:PostProps) {
   return(
-    <div className="border border-white rounded-lg">
+    <div className="border border-white rounded-lg text-white w-[80%]">
       <h1 className="p-3 border-b">{props.title}</h1>
       <span className="p-3 block">
         {props.content}
