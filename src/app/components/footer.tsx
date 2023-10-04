@@ -1,6 +1,6 @@
 export default function Footer() {
   return(
-    <footer className="absolute bottom-0 border">
+    <footer className="border p-4">
       <span>enjoy the future!</span>
     </footer>
 )
